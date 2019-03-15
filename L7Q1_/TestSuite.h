@@ -6,6 +6,7 @@
 #include "Point.h"
 //#include "Tetromino.h"
 #include "Gameboard.h"
+#include <iostream>
 
 
 
@@ -19,7 +20,7 @@ public:
 		// run some sanity tests on our classes to ensure they're working as expected.
 		//TestSuite::testPointClass();
 		//TestSuite::testTetrominoClass();	
-		//TestSuite::testGameboardClass();
+		TestSuite::testGameboardClass();
 		std::cout << "TestSuite complete -----------------------" << "\n";
 		return true;
 	}

@@ -121,7 +121,7 @@ private:
 	const Point spawnLoc {MAX_X/2, 0};	// the gameboard offset to spawn a new tetromino at.	
 
 	// FRIENDS
-	friend class TestSuite;				// for testing purposes (allows TestSuite to access private members of this class)
+	friend class TestSuite;	// for testing purposes (allows TestSuite to access private members of this class)
 };
 
 #endif /* GAMEBOARD_H */
